@@ -1,0 +1,44 @@
+.buttonDownload {
+    background-color: #97a497;
+    border-radius: 10px;
+    width: 100px;
+
+
+}
+
+.backbtn1 {
+    color: white;
+    margin-top: 10px;
+
+
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+@media (max-width: 768px) {
+    .backbtn1 {
+        margin-top: 6px;
+    }
+
+    .storyHeading{
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+    .download1{
+        height: 40px;
+        transform: scale(.8);
+    }
+
+    .storyHeading{
+        width: 300px;
+        font-size: 24px;
+    }
+
+    .sotryimg{
+        
+    }
+}

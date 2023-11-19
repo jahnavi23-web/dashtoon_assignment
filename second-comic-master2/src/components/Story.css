@@ -1,0 +1,52 @@
+.homeRight {
+    width: 20vw;
+    background: white;
+    height: 60vh;
+    border-radius: 8px;
+    margin-right: 4vw;
+
+    overflow-y: scroll;
+}
+
+.headBoard {
+    position: fixed;
+    width: 20vw;
+    background: rgb(85, 137, 124);
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px 8px 0px 0px;
+    margin-top: -6px;
+}
+
+.boardImage {
+    width: 8vw;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.storyNav{
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+}
+
+
+@media (max-width: 768px) {
+    .boardImage {
+        height: 70px;
+        width: 70px;
+        padding: 4px;
+        border-radius: 8px;
+        /* background: white; */
+        margin-left: 4px;
+    }
+
+    .storyNav{
+        transform: scale(.9);
+    }
+
+}
